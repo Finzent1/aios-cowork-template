@@ -1,37 +1,70 @@
 # AIOS — AI Operating System
-### Free Workspace Template for Claude Cowork
+### Workspace Template for Claude Cowork
 
 ---
 
 ## What This Is
 
-This is a structured workspace that gives Claude persistent knowledge of your business — so every session starts with your AI fully briefed and ready to work.
+A structured workspace that gives Claude persistent knowledge of your business — your firm, your active deals, your priorities, and your tasks. Every Cowork session starts with Claude already briefed and ready to work.
 
-No re-briefing. No re-explaining your deals, your firm, or your priorities. Just open a session and go.
+No re-explaining. No re-briefing. Just open a session and go.
 
 ---
 
-## Setup (5 minutes)
+## Setup (~10 minutes)
 
-**1. Fill in your context files**
+### Step 1 — Download this folder
 
-Open each file in `context/` and fill in the details:
+Clone or download this repository to your computer. Put it somewhere permanent — Claude will read from it every session.
+
+```
+git clone https://github.com/Finzent1/aios-cowork-template.git
+```
+
+Or download as a ZIP from GitHub and unzip it.
+
+---
+
+### Step 2 — Fill in your context files
+
+Open each file in `context/` and fill in your details:
 
 - `context/firm.md` — who you are, what your firm does, house style
-- `context/deals.md` — your active mandates (use the template provided)
+- `context/deals.md` — your active mandates
 - `context/strategy.md` — current priorities, revenue target, BD focus
 
-**2. Start your first session**
+Leave `gtd/` files as-is — Claude will help you populate them.
 
-Open Claude Cowork, point it at this folder, and type:
+---
 
-> `/prime`
+### Step 3 — Create a Cowork Project
 
-Claude will read your context and confirm it's ready. From that point on, it knows your business.
+Open **Claude Desktop** and go to the **Cowork** tab.
 
-**3. Keep it current**
+Create a new Project and set it up as follows:
 
-After any meaningful session — a deal update, a new project, a decision made — ask Claude to update the relevant file. The workspace gets more valuable the more current it is.
+**Description:**
+> My AI business assistant — briefed on my firm, deals, and priorities.
+
+**Folders:**
+> Add the folder you downloaded in Step 1. This gives Claude access to all your context and GTD files.
+
+**Instructions:**
+> Copy the entire contents of `INSTRUCTIONS.md` from this folder and paste it here.
+
+**Links:** *(optional)*
+> Add any reference URLs you want Claude to be able to access (e.g. your firm website, key documents).
+
+**Memory:**
+> Leave this as default — Claude will build memory as you work.
+
+---
+
+### Step 4 — Start your first session
+
+Open a new session inside your Cowork Project. Claude will automatically read your context files and brief you on your active deals, priorities, and open tasks.
+
+From here, just work. Claude knows your business.
 
 ---
 
@@ -53,15 +86,28 @@ After any meaningful session — a deal update, a new project, a decision made �
 > "Create a meeting agenda for tomorrow's call with [Company]."
 
 **Research and analysis**
-> "What do you know about [Counterparty] from our previous interactions?"
 > "Summarise the key risks on [Deal] as you understand them."
+> "What do you know about [Counterparty] from our previous interactions?"
+
+---
+
+## Keeping It Current
+
+The workspace gets more valuable the more current it is. After any meaningful session:
+
+- New deal or status change → ask Claude to update `context/deals.md`
+- New task or project → ask Claude to update `gtd/`
+- Strategic shift → ask Claude to update `context/strategy.md`
+
+Claude will offer to do this automatically at the end of sessions where something significant happened.
 
 ---
 
 ## Folder Structure
 
 ```
-├── CLAUDE.md              # Core instructions — always loaded
+├── README.md              # This file
+├── INSTRUCTIONS.md        # Paste into Cowork Project Instructions field
 ├── context/
 │   ├── firm.md            # Who you are
 │   ├── deals.md           # Active mandates
