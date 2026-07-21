@@ -38,23 +38,16 @@ You can edit them in any text editor (Notepad, TextEdit, VS Code, etc.). Leave `
 
 ### Step 3 — Create a Cowork Project
 
-1. Open **Claude Desktop** and click the **Cowork** tab in the left sidebar
-2. Click **New Project**
-3. Fill in the project settings:
+1. Open **Claude Desktop** and find **Projects** in the left navigation panel
+2. Click the **+** button to create a new project
+3. When prompted, choose **Use an existing folder on your computer**
+4. Select the folder you downloaded in Step 1
+5. Give your project a name (e.g. "AIOS — My Firm")
+6. Choose where to save it on your computer
+7. In the **Instructions** field, open `INSTRUCTIONS.md` from the folder, copy all the text, and paste it in
+8. Click **Create**
 
-**Description:**
-> My AI business assistant — briefed on my firm, deals, and priorities.
-
-**Folders:**
-> Click **Add folder** and select the folder you downloaded in Step 1. This gives Claude access to all your context and task files.
-
-**Instructions:**
-> Open `INSTRUCTIONS.md` from the folder, copy all the text, and paste it into this field.
-
-**Links:** *(optional)*
-> Add any URLs you want Claude to be able to access (e.g. your firm website).
-
-4. Click **Save**
+**After creating the project**, you can add reference URLs (e.g. your firm website) via the project's **Context** section — look for the option to paste in a URL.
 
 ---
 
