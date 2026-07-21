@@ -24,19 +24,7 @@ No re-explaining. No re-briefing. Just open a session and go.
 
 ---
 
-### Step 2 — Fill in your context files
-
-Open the folder and edit these three files with your own details:
-
-- `context/firm.md` — who you are, what your firm does, house style
-- `context/deals.md` — your active mandates
-- `context/strategy.md` — current priorities, revenue target, BD focus
-
-You can edit them in any text editor (Notepad, TextEdit, VS Code, etc.). Leave `gtd/` files as-is — Claude will help you populate them.
-
----
-
-### Step 3 — Create a Cowork Project
+### Step 2 — Create a Cowork Project
 
 1. Open **Claude Desktop** and find **Projects** in the left navigation panel
 2. Click the **+** button to create a new project
@@ -51,11 +39,19 @@ You can edit them in any text editor (Notepad, TextEdit, VS Code, etc.). Leave `
 
 ---
 
-### Step 4 — Start your first session
+### Step 3 — Fill in your context files (with Claude's help)
 
-Click **New session** inside your Cowork Project. Claude will automatically read your context files and brief you — your active deals, priorities, and open tasks.
+Start a new session inside your project and send this message:
 
-From here, just work. Claude knows your business.
+> "I'm setting this up for the first time. Help me fill in my context files."
+
+Claude will ask you questions about your firm, your active deals, and your priorities — then write the answers directly into the context files. This takes about 5–10 minutes.
+
+---
+
+### Step 4 — You're set up
+
+From now on, every session starts with Claude reading your context files and briefing you on your deals, priorities, and open tasks. No re-explaining. Just open a session and go.
 
 ---
 
