@@ -15,54 +15,52 @@ No re-explaining. No re-briefing. Just open a session and go.
 
 ### Step 1 — Download this folder
 
-Clone or download this repository to your computer. Put it somewhere permanent — Claude will read from it every session.
+1. Click the green **Code** button at the top of this page on GitHub
+2. Select **Download ZIP**
+3. Once downloaded, unzip the file
+4. Move the unzipped folder somewhere permanent on your computer (e.g. Documents or Desktop) — Claude will read from it every session
 
-```
-git clone https://github.com/Finzent1/aios-cowork-template.git
-```
-
-Or download as a ZIP from GitHub and unzip it.
+> **Technical users:** You can also run `git clone https://github.com/Finzent1/aios-cowork-template.git` if you prefer.
 
 ---
 
 ### Step 2 — Fill in your context files
 
-Open each file in `context/` and fill in your details:
+Open the folder and edit these three files with your own details:
 
 - `context/firm.md` — who you are, what your firm does, house style
 - `context/deals.md` — your active mandates
 - `context/strategy.md` — current priorities, revenue target, BD focus
 
-Leave `gtd/` files as-is — Claude will help you populate them.
+You can edit them in any text editor (Notepad, TextEdit, VS Code, etc.). Leave `gtd/` files as-is — Claude will help you populate them.
 
 ---
 
 ### Step 3 — Create a Cowork Project
 
-Open **Claude Desktop** and go to the **Cowork** tab.
-
-Create a new Project and set it up as follows:
+1. Open **Claude Desktop** and click the **Cowork** tab in the left sidebar
+2. Click **New Project**
+3. Fill in the project settings:
 
 **Description:**
 > My AI business assistant — briefed on my firm, deals, and priorities.
 
 **Folders:**
-> Add the folder you downloaded in Step 1. This gives Claude access to all your context and GTD files.
+> Click **Add folder** and select the folder you downloaded in Step 1. This gives Claude access to all your context and task files.
 
 **Instructions:**
-> Copy the entire contents of `INSTRUCTIONS.md` from this folder and paste it here.
+> Open `INSTRUCTIONS.md` from the folder, copy all the text, and paste it into this field.
 
 **Links:** *(optional)*
-> Add any reference URLs you want Claude to be able to access (e.g. your firm website, key documents).
+> Add any URLs you want Claude to be able to access (e.g. your firm website).
 
-**Memory:**
-> Leave this as default — Claude will build memory as you work.
+4. Click **Save**
 
 ---
 
 ### Step 4 — Start your first session
 
-Open a new session inside your Cowork Project. Claude will automatically read your context files and brief you on your active deals, priorities, and open tasks.
+Click **New session** inside your Cowork Project. Claude will automatically read your context files and brief you — your active deals, priorities, and open tasks.
 
 From here, just work. Claude knows your business.
 
